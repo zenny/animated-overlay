@@ -27,13 +27,18 @@ body {
 	 */
 	width: 260px;
 	height: 80px;
+
+	/* Change these colors as you see fit. Just Google
+	 * whatever color you want followed by "hex code"
+	 * and you should get some good results.
+	 */
 	background-color: #6441A4;
 	color: #FFFFFF;
 
 	/* You may need to play with the font size below
 	 * depending on the font you have chosen.
 	 */
-	font-size: 30pt;
+	font-size: 28pt;
 	font-weight: 300;
 }
 
@@ -49,7 +54,11 @@ body {
 	height: 70px;
 	background-color: #EEEEEE;
 	color: #333333;
-	font-size: 20pt;
+
+	/* You may need to play with the font size below
+	 * depending on the font you have chosen.
+	 */
+	font-size: 16pt;
 	font-weight: 300;
 }
 
