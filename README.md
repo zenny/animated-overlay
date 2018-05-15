@@ -15,7 +15,7 @@ Download and install the local web server and set the server's Document Root to 
 # Installing the Overlay
 Download this repository into the folder Streamlabels stores its text files. Make sure it is a sub-directory of this folder, eg. "C:\Program Files\Streamlabels\Twitch\animated-overlay\".
 
-Open up the animated-overlay.html file and replace "AJ_FUHR" with your Twitch username in the #twitch-name container and your Twitter handle in the #twitter-name container. 
+Open up the animated-overlay.html file and replace "AJ_FUHR" with your Twitch username in the "twitch-name" container and your Twitter handle in the "twitter-name" container. 
 
 Open up the css/style.css file and the js/app.js and follow the comments to adjust the settings as you see fit. In css/style.css, you may update the font, container width, font size, and colors. In js/app.js, ONLY update the social_container_width variable on the second line of the file to match what you used in css/style.css file for the #social-container.
 
