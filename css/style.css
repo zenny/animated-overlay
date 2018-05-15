@@ -7,7 +7,11 @@ body {
 
 	/* Change your font here. It MUST be installed on
 	 * your OS for it to work. Put it first in the list,
-	 * reading left to right.
+	 * reading left to right. Alternatively, you can
+	 * go to Google Fonts and find something you like there,
+	 * but you'll have to include it in the <head> section of
+	 * animated-overlay.html before the line that reads 
+	 * <link rel="stylesheet" href="css/style.css">
 	 */
 	font-family: Arial, Helvetica, sans-serif; 
 }
@@ -30,7 +34,8 @@ body {
 
 	/* Change these colors as you see fit. Just Google
 	 * whatever color you want followed by "hex code"
-	 * and you should get some good results.
+	 * and you should get some good results. NOTE: the
+	 * "color" style is for the font color.
 	 */
 	background-color: #6441A4;
 	color: #FFFFFF;
@@ -52,6 +57,12 @@ body {
 	left: 20px;
 	width: 260px;
 	height: 70px;
+
+	/* Change these colors as you see fit. Just Google
+	 * whatever color you want followed by "hex code"
+	 * and you should get some good results. NOTE: the
+	 * "color" style is for the font color.
+	 */
 	background-color: #EEEEEE;
 	color: #333333;
 
@@ -62,6 +73,9 @@ body {
 	font-weight: 300;
 }
 
+/* 
+ * ------ DO NOT TOUCH ------
+ */
 #twitter-name,
 #follower,
 #follower-title,
