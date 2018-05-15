@@ -25,4 +25,4 @@ Load up your web browser, and with your web server running, point it to http://l
 # Adding to OBS
 With your web server running, create a new browser source and point it to http://localhost/animated-overlay/animated-overlay.html and use the dimensions 1920x1080.
 
-You will need to start your web server before opening OBS for this to work, so make sure it's running or it will not display.
+The web server will need to be running while you stream, so make sure you start it BEFORE opening OBS. If you forget to start the web server prior to opening OBS, you can start the web server with OBS running, then right click on the browser source, click "Properties", and click "Refresh No Cache" at the bottom of the properties window.
