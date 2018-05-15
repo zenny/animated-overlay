@@ -19,6 +19,8 @@ Open up the animated-overlay.html file and replace "AJ_FUHR" with your Twitch us
 
 Open up the css/style.css file and the js/app.js and follow the comments to adjust the settings as you see fit. In css/style.css, you may update the font, container width, font size, and colors. In js/app.js, ONLY update the social_container_width variable on the second line of the file to match what you used in css/style.css file for the #social-container.
 
+Please note that, in css/style.css, the #alert-container's width property should not exceed the #social-container's width property. It can be smaller or equal to, but NOT larger.
+
 # Viewing
 Load up your web browser, and with your web server running, point it to http://localhost/animated-overlay/animated-overlay.html
 
