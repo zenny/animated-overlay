@@ -1,6 +1,8 @@
 # animated-overlay
 HTML/CSS/jQuery powered overlay for OBS
 
+See it in action over at https://twitch.tv/aj_fuhr
+
 # Initial Setup
 You will need the following:
 - A local web server (MAMP for MacOS, XAMP for Windows)
