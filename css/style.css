@@ -1,0 +1,70 @@
+body {
+	width: 1920px;
+	height: 1080px;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0);
+
+	/* Change your font here. It MUST be installed on
+	 * your OS for it to work. Put it first in the list,
+	 * reading left to right.
+	 */
+	font-family: Arial, Helvetica, sans-serif; 
+}
+
+#social-container {
+	z-index: 999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+
+	/* You may need to change the width of this container
+	 * depending on how long your social networking user
+	 * names are.
+	 */
+	width: 260px;
+	height: 80px;
+	background-color: #6441A4;
+	color: #FFFFFF;
+
+	/* You may need to play with the font size below
+	 * depending on the font you have chosen.
+	 */
+	font-size: 30pt;
+	font-weight: 300;
+}
+
+#alert-container {
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 25px;
+	left: 20px;
+	width: 260px;
+	height: 70px;
+	background-color: #EEEEEE;
+	color: #333333;
+	font-size: 20pt;
+	font-weight: 300;
+}
+
+#twitter-name,
+#follower,
+#follower-title,
+#follower-content,
+#subscriber,
+#subscriber-title,
+#subscriber-content,
+#cheer,
+#cheer-title,
+#cheer-content,
+#donation,
+#donation-title,
+#donation-content {
+	display: none;
+}
